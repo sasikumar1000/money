@@ -1,0 +1,309 @@
+/***common styles***/
+*{font-family:proxima_nova_rgregular;}
+.text-center{text-align:center;}
+strong{font-weight: bold;}
+/***banner styles***/
+.section{position: relative;overflow: hidden;}
+.banner{background: url(https://www.zohocorp.com/images/zcorpbanner.jpg) no-repeat;background-size: cover;background-position: center;}
+.banner .content-wrap{color:#fff;padding-bottom: 500px;padding-top: 80px;}
+.content-wrap{padding: 120px 0 120px;max-width: 1070px;}
+h1{font-family: "proxima_novasemibold";line-height: 1.1;margin:30px auto;font-size: 60px;letter-spacing: 1px;max-width:540px;}
+h2{font-family:"proxima_nova_rgbold";font-size: 50px;}
+h1 img{display: inline-block;max-width: 127px;vertical-align: middle;}
+.zlogo img{max-width: 150px;}
+.banner ul > li {display: inline-block;margin: 0 20px 0 40px;font-size: 15px;font-family: "proxima_novasemibold";position: relative;cursor: pointer;}
+.banner ul > li:before{content: '';width: 8px;height: 8px;position: absolute;left: -20px;background: #e10225;border-radius: 50%;top: 8px;}
+.banner ul > li:nth-child(2):before{background: #ffeb3b;}
+.banner ul > li:nth-child(3):before{background: #64b5f6;}
+.banner ul > li:first-child,.banner ul > li:nth-child(2),.banner ul > li:nth-child(3){opacity:0;transition: all 700ms ease;}
+.banner ul.in-view > li:first-child,.banner ul.in-view > li:nth-child(2),.banner ul.in-view > li:nth-child(3){opacity:1;}
+.banner ul > li:first-child{transition-delay: 500ms;}
+.banner ul > li:nth-child(2){transition-delay: 800ms;}
+.banner ul > li:nth-child(3){transition-delay: 1100ms;}
+
+/***zoho section***/
+.section.zoho{background:#f7f7f7 url(https://www.zohocorp.com/images/support1.png) repeat;background-size: 100px;}
+.desc{text-align:center;}
+.section-wrapper{position: relative;display: table;margin-top: 60px;}
+.customers .section-wrapper{display: block;margin-top: 40px;}
+.customer-cta-wrapper{    margin-top: 20px;}
+.section-wrapper>div{vertical-align: middle;display:inline-block;}
+.section-main{padding: 100px;max-width: 85%;padding-right: 25%;}
+.zoho .section-main{background: #ffdd2b;}
+.section-main p{font-family:'Roboto Slab';font-size:22px;line-height: 1.8;}
+.section-logo{width: 32%;padding: 100px 20px;text-align: center;margin-left: -18%;background: #fff;box-shadow: 0 0 16px 3px rgba(136, 136, 136, 0.121);position: relative;z-index:1;    display: inline-block;vertical-align: middle;color:#000;}
+.section-logo img{max-width: 220px;margin-bottom: 20px;} 
+.section-logo p{font-family: "proxima_novasemibold";}
+.products{margin:40px 0 40px;}
+.products li {display: inline-block;margin: 2px 30px 20px 0;max-width: 110px;vertical-align: top;width: 25%;}
+.zoho .products li {text-align: center;width:auto;}
+.products li a{font-size:16px;}
+.products a,.products + a {display: inline-block;color: #000;font-size: 14px;line-height: 1.3;font-family: proxima_novasemibold;}
+.zoho .products + a{color:#fff;}
+.icon {display: block;width: 46px;height: 46px;background: url('https://www.zohocorp.com/images/zohocorp-icon-sprite.png') no-repeat;background-size: 600px auto;position: relative;margin-bottom: 10px;}
+.crm-icon.icon {background-position: 0 0;}
+.books-icon.icon {background-position: -46px 0;}
+.mail-icon.icon {background-position: -93px 0;}
+.desk-icon.icon {background-position: -138px 0;}
+.itservice-icon.icon{background-position: -184px 0;}
+.itoperation-icon.icon{background-position: -230px 0;}
+.itsecurity-icon.icon{background-position: -282px 0;width: 38px;}
+.endpoint-icon.icon{background-position: -324px 0;}
+.activedirectory-icon.icon{background-position: -374px 0;width: 38px;}
+.energy-icon.icon {background-position: -416px 0;}
+.remote-icon.icon {background-position: -462px 0;}
+.fleet-icon.icon {background-position: -508px 0;}
+.iot-icon.icon {background-position: -555px 0;}
+.cta{color: #fff;background: #f0483e;padding: 12px 20px;display: inline-block;font-family: "proxima_novasemibold";text-transform: uppercase;font-size: 16px;}
+.banner-info {font-size: 14px;position: absolute;padding: 6px;bottom: 0;text-align: right;color: #666;background: #fff;width: 100%;padding-right: 10px;}
+.zoho h2{position: absolute;width: 100%;text-align: center;top: 80px;}
+.zoho h2.fixed {position: fixed;top: 0;left: 0;background: #fff;z-index: 9;padding: 10px;box-shadow: 0px 4px 8px 2px rgba(39, 38, 38, 0.078);font-size:30px;}
+.zoho .section-main > p{font-weight:400;}
+.zoho .desc p{font-size:22px;}
+
+/***manage engine section***/
+.manage-engine{background:#fff url(https://www.zohocorp.com/images/support2.png) repeat;background-size: 120px;}
+.manage-engine .section-main{background:#01a768;}
+.manage-engine .section-main *,.webnms .section-main *{color:#fff;}
+.webnms{background:#f8f6f6 url(https://www.zohocorp.com/images/support3.png) repeat;background-size: 80px;}
+.webnms .section-main{background:#03a9f5;}
+.footer {padding: 15px 0;background: #f9f8f8;}
+.footer p{text-align: center;font-size: 14px;margin: 0px;}
+
+
+/***global map section***/
+.section.global-map{background:#f7f7f7;}
+.global-map .content-wrap{max-width: 1170px;}
+.zbanner-map-container{position:relative;}
+.zmap-points{display:inline-block;background:url(https://www.zohocorp.com/images/global-map-pointer.png) no-repeat;width:14px;background-size:100%;}
+.zmap-points-container{position:absolute;cursor: pointer;}
+.zmap-points-details{position: absolute;font-size: 14px;width: 200px;background: #fff;padding: 10px;top: -75px;margin-left: -102px;box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.05);z-index:1;opacity: 0;visibility: hidden;transition: all 800ms ease;transform: scale(.7);}
+.active .zmap-points-details{visibility:visible;opacity: 1;transform: scale(1);}
+.zmap-date{position:relative;padding-left: 35px;width:100%;display: inline-block;}
+.zmap-ph{display: inline-block;vertical-align: top;width: 100%;padding-left: 35px;}
+.zmap-date:before{content: '';background: url(https://www.zohocorp.com/images/country-flag.png) no-repeat 0 0/360px auto;width: 27px;height: 20px;position: absolute;left: 0;top: 0px;}
+.zmap-points-details:after{content:'';display:block;position:absolute;width: 0; height: 0;  border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid #fff;bottom: -7px;left: 50%;}
+.india .zmap-date:before{background-position: -305px 0;}
+.china .zmap-date:before{background-position: -83px 0;}
+.singapore .zmap-date:before{background-position: -277px 0;}
+.australia .zmap-date:before{background-position: -249px 0;}
+.uk .zmap-date:before{background-position: -28px 0;}
+.germany .zmap-date:before{background-position: -110px 0;}
+.netherland .zmap-date:before{background-position: -193px 0;}
+.france .zmap-date:before{background-position: -55px 0;}
+.spain .zmap-date:before{background-position: -221px 0;}
+.sweden .zmap-date:before{background-position: -138px 0;}
+.italy .zmap-date:before{background-position: -166px 0;}
+.zmap-points-container.us {left: 16%;top: 41%;}
+.zmap-points-container.india {left: 69%;top: 53%;}
+.zmap-points-container.china{left: 78%;top: 38%;}
+.zmap-points-container.singapore{top: 64%;left: 80%;}
+.zmap-points-container.australia{right: 12%;bottom: 17%;}
+.zmap-points-container.uk{top: 31%;left: 45%;}
+.zmap-points-container.germany{top: 36%;left: 50%;}
+.zmap-points-container.netherland{top: 34%;left: 49%;}
+.zmap-points-container.france{top: 36%;left: 47%;}
+.zmap-points-container.spain{top: 41%;left: 45%;}
+.zmap-points-container.sweden{top: 24%;left: 52%;}
+.zmap-points-container.italy{top: 41%;left: 52%;}
+.india .zmap-points-details{top:-115px;}
+.us .zmap-points-details,.uk .zmap-points-details{top:-95px;}
+
+/***customer section***/
+.customers {background: #eeeeee;padding: 120px 0px;z-index:3;}
+.customers .content-wrap{background:#fff;max-width: 1040px;padding:80px 0}
+.customers:after {content: '';position: absolute;width: 50%;height: 60%;right: -298px;top: 0;bottom: 0;margin: auto;background: url(https://www.zohocorp.com/images/support4.png) no-repeat;background-size: contain;z-index:-1;}
+.customers:before {content: '';position: absolute;width: 50%;height: 60%;left: -298px;top: 0;bottom: 0;margin: auto;background: url(https://www.zohocorp.com/images/support4.png) no-repeat;background-size: contain;z-index:-1;transform: rotateY(-180deg);}
+.customers .section-main{padding:0px 60px;max-width: 100%;text-align: center;}
+.customers strong{color: #406cef;font-size: 22px;}
+.zcount{display: inline-block;min-width: 30px;}
+.trust-brands-wrap ul li {display: inline-block;margin: 0px 0px 40px;width: 16%;transform: scale(.8);opacity: 0;transition: all 800ms ease;}
+.trust-brands-wrap ul li:nth-child(2){transition-delay: 50ms;}
+.trust-brands-wrap ul li:nth-child(3){transition-delay: 100ms;}
+.trust-brands-wrap ul li:nth-child(4){transition-delay: 150ms;}
+.trust-brands-wrap ul li:nth-child(5){transition-delay: 200ms;}
+.trust-brands-wrap ul li:nth-child(6){transition-delay: 250ms;}
+.trust-brands-wrap ul li:nth-child(7){transition-delay: 300ms;}
+.trust-brands-wrap ul li:nth-child(8){transition-delay: 350ms;}
+.trust-brands-wrap ul li:nth-child(9){transition-delay: 400ms;}
+.trust-brands-wrap ul li:nth-child(10){transition-delay: 450ms;}
+.trust-brands-wrap ul li:nth-child(11){transition-delay: 500ms;}
+.trust-brands-wrap ul li:nth-child(12){transition-delay: 550ms;}
+.trust-brands-wrap ul li:nth-child(13){transition-delay: 600ms;}
+.trust-brands-wrap ul li:nth-child(14){transition-delay: 650ms;}
+.trust-brands-wrap ul li:nth-child(15){transition-delay: 700ms;}
+.trust-brands-wrap ul li:nth-child(16){transition-delay: 750ms;}
+.trust-brands-wrap ul.in-view li{opacity:1;transform: scale(1);}
+.tp-lists li span {background: url(https://www.zohocorp.com/images/customer-logo.png) no-repeat 0 0;background-size: 850px auto;height:50px;display:inline-block;text-indent: -9999em;}
+.tp-lists .tb-apple span{background-position: 0 0;width:40px;}
+.tp-lists .tb-hbo span{background-position: -56px 0;width: 60px;}
+.tp-lists .tb-netflix span{background-position: -142px 0;width:100px;}
+.tp-lists .tb-intel span{background-position: -264px 0;width: 62px;}
+.tp-lists .tb-viasat span{background-position: -344px 0;width: 100px;}
+.tp-lists .tb-sony span{background-position: -468px 0;width: 118px;}
+.tp-lists .tb-mrv span{background-position: -594px 0;width: 110px;}
+.tp-lists .tb-mahindra span{background-position: -724px 0;width: 130px;}
+.tp-lists .tb-nike span{background-position: 0 -54px;width: 80px;}
+.tp-lists .tb-nec span{background-position: -92px -54px;width: 90px;}
+.tp-lists .tb-loreal span{background-position: -190px -54px;width: 110px;}
+.tp-lists .tb-paypal span{background-position: -306px -54px;width: 104px;}
+.customer-cta-wrapper a{font-size:16px;margin: 0 20px;font-family: 'proxima_novasemibold';display: inline-block;padding: 3px 20px 2px;border-radius: 2px;}
+.customer-cta-wrapper a:first-child{color:#ef662f;border: 1px solid #ef662f;}
+.customer-cta-wrapper a:nth-child(3){color:#1e8dcc;border: 1px solid #1e8dcc;}
+.customer-cta-wrapper a:nth-child(2){color:#1ba028;border: 1px solid #1ba028;}
+
+
+/***inthenews***/
+.inthenews .section-wrapper{display:block;background: url(https://www.zohocorp.com/images/support5.png) no-repeat;background-size: cover;}
+.inthenews .section-main{max-width: 70%;margin: 10% 15% 10% 15%;background: #fff;padding: 60px 90px 80px 90px;}
+.inthenews .content-wrap{max-width:1040px;}
+.slick-next, .slick-prev{transform: scale(.9);}
+.slick-prev{display: block;left: unset;right: -20px;bottom: -50px;top: unset;}
+.slick-next{top:unset;bottom:-50px;right:-40px;}
+.slick-next:after, .slick-next:before, .slick-prev:after, .slick-prev:before,.slick-next:hover:after, .slick-next:hover:before, .slick-prev:hover:after, .slick-prev:hover:before{background:#333;}
+p.latest-news-title{color: #f7742c;font-size: 18px;font-family: proxima_nova_rgregular;}
+.inthenews h2:before {width: 264px;content: '';position: absolute;height: 1px;background: #000;bottom: -3px;}
+.inthenews h2 {position: relative;}
+.inthenews h2:after {width: 264px;content: '';position: absolute;height: 2px;background: #000;bottom: -9px;margin-left: -269px;}
+p.date-info {font-size: 16px;margin-bottom: 5px}
+.slide-item a{font-size:16px;border-bottom: 1px solid #03a9f5;}
+.slide-item p{color:#000;}
+.news-cta-wrapper{margin-top: 20px;}
+.news-cta-wrapper a{font-size:16px;margin: 0 10px;font-family: 'proxima_novasemibold';display: inline-block;border-radius: 2px;padding: 3px 10px 2px;}
+.news-cta-wrapper a:first-child{color:#ef662f;border: 1px solid #ef662f;margin-left: 0px;}
+.news-cta-wrapper a:nth-child(3){color:#1e8dcc;border: 1px solid #1e8dcc;}
+.news-cta-wrapper a:nth-child(2){color:#1ba028;border: 1px solid #1ba028;}
+
+
+/***CEO ***/
+div#section8 .content-wrap{overflow:visible;padding:70px 0 0;}
+div#section8 .section-wrapper{margin-top: 0px;}
+div#section8 {background: #fff;}
+#section8 .content-wrap:before{background: url(https://www.zohocorp.com/images/zoho-tower-building.jpg) no-repeat;width: 100%;height: 609px;content: '';position: absolute;right: -14%;background-size: 90%;bottom: 0px;background-position: bottom center;}
+#section8 .section-main {padding: 0 100px 0 0;max-width: 100%;display: table;width: 100%;table-layout: fixed;}
+#section8 .section-main>div {width: 40%;display: table-cell;vertical-align: middle;}
+#section8 .section-main>div:nth-child(2) {width: 60%;vertical-align: top;}
+#section8 .section-main>div:first-child {padding:0 60px 0 0;    width: 34%;}
+p.quote:before {content: '';width: 45px;height: 60px;background: url(../images/support6.png) no-repeat;background-size: 100%;opacity: .5;display:none;}
+p.quote{font-weight:400;line-height: 1.5;font-size: 32px;font-family: proxima_nova_rgbold;max-width: 400px;margin-top: 100px;}
+p.ceo-name {font-family: proxima_novasemibold;font-size: 20px;margin-bottom: 0px;}
+p.designation {font-size: 14px;line-height: 1;font-family: proxima_nova_rgregular;}
+.quote span{line-height: 1.3;}
+
+@media all and (min-width:1500px){
+/*    #section8 .content-wrap:before{width: 150%;right: -25%;}*/
+}
+@media all and (min-width:768px) and (max-width:1025px){
+    .section-wrapper{margin-top: 0px;}
+}
+
+@media all and (min-width:1400px){
+    .banner .content-wrap{padding-bottom: 400px;}
+}
+@media all and (min-width:1800px){
+    .banner .content-wrap{padding-bottom: 800px;}
+    .banner ul > li{font-size:18px;}
+}
+@media all and (min-width:1025px){
+    .zoho .content-wrap{padding-top: 140px;}
+    .manage-engine .section-logo img{max-width: 280px;} 
+    .webnms .section-logo img{max-width: 260px;} 
+    .manage-engine .section-wrapper,.webnms .section-wrapper{margin-top: 0px;}
+    .zoho .section-wrapper{margin-top: 50px;}
+    .zoho .products li{margin-right: 60px;}
+    .manage-engine .products li {max-width: 130px;}
+    .manage-engine .products li:nth-child(4),.manage-engine .products li:nth-child(5){margin-bottom: 0px;}
+    .manage-engine .products .cta{vertical-align:bottom;display: inline-block;}
+    .webnms .products li {margin-right: 20px;}
+    .global-map .content-wrap{padding:100px 0 120px}
+
+}
+
+@media all and (max-width:1024px){
+    .content-wrap,.customers .content-wrap{padding:60px 0 60px;}
+    h1{font-size:36px;}
+    h1 img{max-width:72px;}
+    h2{font-size: 32px;}
+    .zoho h2{top:60px;}
+    .banner .content-wrap{padding-bottom: 200px;}
+    .banner-info{font-size:12px;}
+    .section.zoho{margin-top: 0px;}
+    .section-main{padding:40px 20% 40px 40px;}
+    #section2 .desc p {margin-top: 40px;}
+    .trust-brands-wrap ul li{width:24%;margin:0px 0px 20px;}
+    .tp-lists li span{transform: scale(.9);}
+    .inthenews h2:before,.inthenews h2:after{width:170px;}
+    .inthenews h2:after{margin-left: -170px;}
+    .section-logo{padding: 60px 20px;}
+    .section-logo img{max-width:180px;}
+    .zoho .section-logo img{max-width:140px;}
+    .section-main p{font-size:18px;}
+    .section-logo p{line-height:1.3;}
+    .products{margin:20px 0 20px;}
+    .icon{transform:scale(.7);}
+    .news-cta-wrapper a,.customer-cta-wrapper a{margin-bottom: 15px;}
+    .global-map .section-wrapper{margin-top: 30px;}
+    .global-map .section-wrapper{display:block;}
+    .zbanner-map,.zmap-points,.zmap-points-details:after{display:none;}
+    .zmap-points-container,.zmap-points-details{position:static;}
+    .zmap-points-container{margin:20px;width: 40%;display: inline-block;}
+    .zmap-points-details{opacity:1;visibility: visible;margin-left: 30px;-webkit-transform: scale(1);transform: scale(1);}
+    .global-map .section-wrapper>div{display:block;text-align: center;}
+    .zmap-points-details{width:100%;margin-left: 0px;}
+    .zmap-date,.zmap-ph{text-align:left;}
+    #section8 .section-main>div:first-child{padding:0px;width:25%;}
+    p.quote{max-width: 210px;margin-top: 40px;}
+    p.ceo-name{font-size:16px;}
+    p.designation{font-size:12px;}
+}
+
+@media all and (max-width:767px){
+    h1{margin: 20px auto;}
+    h2 {font-size: 26px;}
+    .zoho h2.fixed{font-size:20px;}
+    .customers .content-wrap,.content-wrap,.global-map .content-wrap,.inthenews .content-wrap{max-width:480px;}
+    .customers .content-wrap{padding:60px 0 30px;}
+    .zlogo img{max-width:120px;}
+    .banner ul{max-width:200px;text-align: left;margin:auto;display: none;}
+    .banner .content-wrap{padding-bottom: 280px;}
+    .section-main{max-width:100%;padding:30px;}
+    .products li{margin-right: 15px;}
+    .section-main p{font-size:16px;}
+    .cta{padding: 9px 30px;font-size: 14px;}
+    .section-logo {padding: 0px 10px;width: 100%;margin-left: 0%;box-shadow: none;background: none;}
+    .zoho .section-logo img{max-width:120px;}
+    #section2 .desc p{margin-top: 40px;font-size:20px;}
+    .manage-engine .section-logo img{max-width:180px;}
+    .manage-engine .section-wrapper,.webnms .section-wrapper{margin-bottom: 60px;}
+    .section-logo img{margin-bottom: 10px;}
+    .customers{padding:60px 0;}
+    .customers .desc{padding: 0 20px;}
+    .products + a {padding:12px 30px}
+    .customers .section-main{padding:0px;}
+    .news-cta-wrapper{text-align: center;}
+    .news-cta-wrapper a{margin-bottom: 15px;}
+    .trust-brands-wrap ul li{width:30%;margin:0px 0px 20px;transform: scale(.8) !important;}
+    .customer-cta-wrapper a{margin: 10px 50px;display: inline-block;}
+    .inthenews h2:before,.inthenews h2:after{width:140px;}
+    .inthenews h2:after{margin-left: -140px;}
+    .manage-engine .content-wrap,.webnms .content-wrap{padding:0 0;}
+    .desc p{font-size:18px;line-height: 1.3;}
+    .products li{max-width:120px;width:50%;}
+    .zoho .products li{width:auto;}
+    .webnms .products li:nth-child(even),.mahage-enigine .products li:nth-child(even){margin-right: 0px;}
+    .zmap-points-container{width:90%;margin:10px;}
+    .inthenews .section-main{padding:20px;max-width:100%;margin:0px;}
+    .inthenews .section-wrapper{margin-top: 20px;}
+    div#section8 .content-wrap{padding-top: 10px;}
+    #section8 .section-main{padding:0;text-align:center;}
+    #section8 .section-main>div{display:block;width:100%;max-width: 230px;margin: auto;}
+    #section8 .section-main>div:nth-child(2){width:70%;margin:auto;}
+    #section8 .section-wrapper{margin-top: 0px;}
+    #section8 .section-main>div:first-child{padding:0px;width:50%;}
+    #section8 .content-wrap:before{display:none;}
+    .section-main p.quote{font-size: 18px;margin-top: 30px;}
+    .slick-prev{right:10px;bottom:-10px;transform: scale(.6)}
+    .slick-next{right:-10px;bottom:-10px;transform: scale(.6)}
+    .footer{margin-top: 30px;}
+
+}
